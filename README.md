@@ -39,3 +39,5 @@ For more information, [check out this page on the Haskell Language Wiki](https:/
 ### Theoretical Computer Science Cheat Sheet - Extended
 This part is currently under construction!
 #### Definitions of Asymptotic Notation
+* big-O (big-"O"):  $f(n) = O(g(n)) \iff  \exists $ positive $c, n_0$ such that $0 \leq f(n) \leq cg(n)\,\forall n \geq n_0$
+* big-Ω (big-"Omega"):  $f(n) = \Omega(g(n)) \iff  \exists $ positive $c, n_0$ such that $f(n) \geq cg(n) \geq 0\,\forall n \geq n_0$
