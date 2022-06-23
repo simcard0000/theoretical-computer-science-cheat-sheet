@@ -39,7 +39,8 @@ For more information, [check out this page on the Haskell Language Wiki](https:/
 ### Theoretical Computer Science Cheat Sheet - Extended
 This part is currently under construction!
 #### Definitions of Asymptotic Notation
-* big-O (big-"O"):  $f(n) = O(g(n)) \iff  \exists $ positive $c, n_0$ such that $0 \leq f(n) \leq cg(n)\,\forall n \geq n_0$
-* big-Ω (big-"Omega"):  $f(n) = \Omega(g(n)) \iff  \exists $ positive $c, n_0$ such that $f(n) \geq cg(n) \geq 0\,\forall n \geq n_0$
-* big-Θ (big-"Theta"): $f(n) = \Theta(g(n)) \iff f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$
+* big-O (big-"O", upper bound):  $f(n) = O(g(n)), f(n) \in O(g(n)) \iff  \exists $ positive $c, n_0$ such that $0 \leq f(n) \leq cg(n)\,\forall n \geq n_0$
+* big-Ω (big-"Omega", lower bound):  $f(n) = \Omega(g(n)), f(n) \in \Omega(g(n)) \iff  \exists $ positive $c, n_0$ such that $f(n) \geq cg(n) \geq 0\,\forall n \geq n_0$
+* big-Θ (big-"Theta", tight bound): $f(n) = \Theta(g(n)), f(n) \in \Theta(g(n)) \iff f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$
+* little-o (little-"o", strict upper bound): $f(n) = o(g(n)), f(n) \in o(g(n)) \iff \forall c > 0, \exists n_0 \geq 0$ such that $f(n) \leq c(g(n)), \forall n \geq n_0$
 
