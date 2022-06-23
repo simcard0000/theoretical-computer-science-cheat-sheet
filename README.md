@@ -41,3 +41,5 @@ This part is currently under construction!
 #### Definitions of Asymptotic Notation
 * big-O (big-"O"):  $f(n) = O(g(n)) \iff  \exists $ positive $c, n_0$ such that $0 \leq f(n) \leq cg(n)\,\forall n \geq n_0$
 * big-Ω (big-"Omega"):  $f(n) = \Omega(g(n)) \iff  \exists $ positive $c, n_0$ such that $f(n) \geq cg(n) \geq 0\,\forall n \geq n_0$
+* big-Θ (big-"Theta"): $f(n) = \Theta(g(n)) \iff f(n) = O(g(n))$ and $f(n) = \Omega(g(n))$
+
