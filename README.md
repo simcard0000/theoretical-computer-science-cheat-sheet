@@ -1,7 +1,7 @@
 ![active development](https://img.shields.io/badge/active%20dev-yes-brightgreen.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/simcard0000/theoretical-computer-science-cheat-sheet.svg)
 # theoretical-computer-science-cheat-sheet
-🧮 An expanded version of Steve Seiden's Theoretical Computer Science Cheat Sheet.
+♾️ An expanded version of Steve Seiden's Theoretical Computer Science Cheat Sheet.
 
 ### Table of Contents
 1. [About + Credits](#about--credits)
