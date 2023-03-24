@@ -1,0 +1,10 @@
+*.dvi
+*.log
+*.pdf
+*.pic
+*.ps
+.DS_Store
+angle.tex
+scratch/
+triangle.tex
+unit.tex
