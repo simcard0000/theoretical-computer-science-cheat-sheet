@@ -3,6 +3,13 @@
 # theoretical-computer-science-cheat-sheet
 ♾️ An expanded version of Steve Seiden's Theoretical Computer Science Cheat Sheet.
 
+### How To 
+
+You might need to install `fig2dev`
+```
+make cheatsheet.ps
+```
+
 ### Table of Contents
 1. [About + Credits](#about--credits)
 2. [Contributing](#contributing)
